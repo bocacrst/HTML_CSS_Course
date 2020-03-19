@@ -51,9 +51,11 @@ h1,h2 {
      width: 75%;
      float: left;
      padding-right: 30px;
+     position: relative;
  }
  .blog-post img{
      margin-top: 30px;
+     
  }
  .other-post{
      width: 25%;
@@ -75,6 +77,11 @@ h1,h2 {
      float:left;
      
  }
+.date{
+    position: absolute;
+    top: 53px;
+    right: 30px;
 
+}
 
  
