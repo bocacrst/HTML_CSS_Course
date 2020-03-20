@@ -4,14 +4,103 @@
     box-sizing: border-box;
 }
 html{
-    background-color: rgb(224, 219, 202);
-    color:  rgb(124, 124, 124);
+   
+    color:  white;
     font-family: 'Lato', Arial, sans-serif;
     font-weight: 400;
     font-size: 20px;
     text-rendering: optimizeLegibility;
 }
+
+/*################################################*/
+/*-------------REUSABLE COMPONENTS----------------*/
+/*################################################*/
+
 .row {
     max-width: 1140px;
     margin: 0 auto;
+}
+
+/*---------HEADINGS----------*/
+
+h1{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 250%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+}
+
+
+/*---------BUTTONS----------*/
+
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+    border-radius: 200px;
+    border: 3px solid #C22A27;
+    transition: background-color 0.4s, border 0.4s;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #C22A27;
+    
+}
+.btn-ghost:link,
+.btn-ghost:visited{
+    margin-left: 10px;
+    
+}
+.btn:hover,
+.btn:active{
+    background-color: rgb(163, 33, 31);
+    border: 3px solid rgb(163, 33, 31);    
+}
+
+/*################################################*/
+/*-------------------HEADER-----------------------*/
+/*################################################*/
+
+header{
+    background-image:linear-gradient(#0000001c, #000000c7), url(./img/anton-shuvalov-WFIoD6zWn98-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.hero-text-box{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%) ;
+}
+.logo{
+    height: 120px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+    margin-left:400px;
+}
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-right: 300px;
+    margin-top: 60px;
+}
+.main-nav li{
+    display: inline-block;
+    margin-right: 40px;
+}
+.main-nav li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
 }
