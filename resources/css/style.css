@@ -86,12 +86,11 @@ header{
     width: auto;
     float: left;
     margin-top: 20px;
-    margin-left:400px;
+
 }
 .main-nav{
     float: right;
     list-style: none;
-    margin-right: 300px;
     margin-top: 60px;
 }
 .main-nav li{
@@ -116,4 +115,20 @@ header{
 }
 .banner{
     background-color: white;
+}
+.seaction-feature{
+    color: black;
+    padding: 20px 0px;
+   
+}
+.seaction-feature h2{
+    text-transform: uppercase;
+    padding: 20px 0px;
+}
+.seaction-feature div{
+    padding: 20px 0px;
+}
+.seaction-feature div h3{
+    padding: 20px 0px;
+    
 }
