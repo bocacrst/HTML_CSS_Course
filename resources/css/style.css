@@ -121,14 +121,22 @@ header{
     padding: 20px 0px;
    
 }
+.seaction-feature img{
+    width: 30%;
+    
+}
 .seaction-feature h2{
     text-transform: uppercase;
-    padding: 20px 0px;
+    padding: 20px 13px;
 }
 .seaction-feature div{
     padding: 20px 0px;
 }
 .seaction-feature div h3{
-    padding: 20px 0px;
+    padding: 10px 10px;
     
+}
+.seaction-feature div p{
+    text-align: justify;
+    padding: 0px 15px;
 }
