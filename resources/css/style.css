@@ -96,10 +96,11 @@ h2:after{
 
 .icon-big{
     width: 30%;
-    margin: 20px 95px;
+    margin: 20px 95px; 
+}
+.city-feature img{
+    width: 30px;
     
-    
-     
 }
 
 /*---------BUTTONS----------*/
@@ -214,7 +215,7 @@ header{
 }
 
 .photo-cities{
-    width: 100%;
+    width: 80%;
     
      
 }
