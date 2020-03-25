@@ -11,6 +11,14 @@ html{
     font-size: 20px;
     text-rendering: optimizeLegibility;
 }
+.clear-fix{zoom: 1;}
+.clear-fix::after{
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
 
 /*################################################*/
 /*-------------REUSABLE COMPONENTS----------------*/
@@ -205,13 +213,17 @@ header{
     opacity: 1;
 }
 
+.photo-cities{
+    width: 100%;
+    
+     
+}
+
 /*################################################*/
 /*-----------------HOW IT WORKS-------------------*/
 /*################################################*/
-
-.steps-box{
-    
-
+.section-steps{
+    background-color: rgb(243, 243, 243);
 }
 .steps-box:first-child{
     text-align: right;
@@ -237,9 +249,18 @@ header{
     padding: 7px;
     float: left;
     font-size: 150%;
-    margin-right: 25%;
+    margin-right: 25px;
    
 }
 .work-steps p{
     margin-bottom: 40px;
+}
+.work-steps:last-of-type{
+    margin-bottom: 80px;
+}
+.btn-app img{
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+    
 }
