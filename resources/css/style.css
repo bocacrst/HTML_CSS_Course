@@ -118,14 +118,15 @@ a:visited{
     color: #C22A27 ;
     text-decoration: none;
     padding-bottom: 2px;
-    border-bottom: 1px solid #C22A27;
-    transition: border-bottom 0.3s, color 0.3s;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s, color 0.3s;
 }
 
 a:hover,
 a:active{
+    border-bottom: 1px solid #C22A27;
     color: #555;
-    border-bottom: 1px solid transparent;
+    
 }
 
 /*---------BUTTONS----------*/
@@ -299,9 +300,7 @@ header{
     width: 95%;
     height: 190px;
     margin-bottom: 20px;
-    filter: linear-gradient(#0000001c, #000000c7),brightness(90%);
-    
-    
+    filter: sepia(40%) drop-shadow(8px 8px 10px gray);
 }
 .city-feature{
     margin-bottom: 15px;
