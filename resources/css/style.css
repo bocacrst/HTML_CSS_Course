@@ -66,6 +66,7 @@ h3{
     font-size: 110%;
     margin: 10px 10px;
     text-align: center;
+    
 }
 h2:after{
     display: block;
@@ -98,9 +99,33 @@ h2:after{
     width: 30%;
     margin: 20px 95px; 
 }
-.city-feature img{
-    width: 30px;
-    
+.icon-small{
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    margin-right: 10px;
+
+    /*align text and icons*/
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;    
+}
+
+/*---------LINKS----------*/
+
+a:link,
+a:visited{
+    color: #C22A27 ;
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #C22A27;
+    transition: border-bottom 0.3s, color 0.3s;
+}
+
+a:hover,
+a:active{
+    color: #555;
+    border-bottom: 1px solid transparent;
 }
 
 /*---------BUTTONS----------*/
@@ -214,11 +239,7 @@ header{
     opacity: 1;
 }
 
-.photo-cities{
-    width: 80%;
-    
-     
-}
+
 
 /*################################################*/
 /*-----------------HOW IT WORKS-------------------*/
@@ -259,9 +280,34 @@ header{
 .work-steps:last-of-type{
     margin-bottom: 80px;
 }
+.btn-app:link,
+.btn-app:visited{
+    border-bottom: 0;
+}
 .btn-app img{
     height: 50px;
     width: auto;
     margin-right: 10px;
     
+}
+
+/*################################################*/
+/*--------------------CITIES----------------------*/
+/*################################################*/
+
+.photo-cities{
+    width: 95%;
+    height: 190px;
+    margin-bottom: 20px;
+    filter: linear-gradient(#0000001c, #000000c7),brightness(90%);
+    
+    
+}
+.city-feature{
+    margin-bottom: 15px;
+}
+.section-cities h3{
+    margin-left: -20px;
+    margin-bottom: 20px;
+   
 }
