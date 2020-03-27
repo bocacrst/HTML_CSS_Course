@@ -168,6 +168,7 @@ header{
     background-size: cover;
     background-position: center;
     height: 100vh;
+    background-attachment: fixed;
 }
 .hero-text-box{
     position: absolute;
@@ -309,4 +310,54 @@ header{
     margin-left: -20px;
     margin-bottom: 20px;
    
+}
+
+/*################################################*/
+/*--------------------REVIEWS---------------------*/
+/*################################################*/
+
+.section-testimonials{
+    color: rgb(221, 220, 220);
+    background-image: linear-gradient(#000000da, #000000c5), url(./img/322636.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    background-attachment: fixed;
+    
+}
+.section-testimonials h2{
+    font-weight: 300;
+}
+ blockquote{
+   margin-top: -20px;
+   padding: 7%; 
+   font-style: italic;
+   text-align: justify;
+   text-indent: 30px;
+   line-height: 145%;  
+   position: relative; 
+}
+blockquote::before{
+    content: "\201c";
+    font-size: 500% ;
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: -20px;
+}
+cite{
+    font-size: 90%;
+    margin-top: 20px;
+    display: inline-block;
+}
+cite img{
+    margin-left: 20px;
+    width: 60px;
+    border-radius: 50%;
+    
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.review{
+    margin-top: 77px;
 }
