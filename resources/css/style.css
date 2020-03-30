@@ -110,6 +110,9 @@ h2:after{
     vertical-align: middle;
     margin-top: -5px;    
 }
+.plan-box img{
+    width: 20px;
+}
 
 /*---------LINKS----------*/
 
@@ -321,7 +324,7 @@ header{
     background-image: linear-gradient(#000000da, #000000c5), url(./img/322636.jpg);
     background-size: cover;
     background-position: center;
-    height: 80vh;
+    height: 80%;
     background-attachment: fixed;
     
 }
