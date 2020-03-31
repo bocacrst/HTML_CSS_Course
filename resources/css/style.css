@@ -110,9 +110,6 @@ h2:after{
     vertical-align: middle;
     margin-top: -5px;    
 }
-.plan-box img{
-    width: 20px;
-}
 
 /*---------LINKS----------*/
 
@@ -363,4 +360,45 @@ cite img{
 }
 .review{
     margin-top: 77px;
+}
+
+/*################################################*/
+/*--------------------SIGN UP---------------------*/
+/*################################################*/
+
+.section-plans{
+    background-color: rgb(243,243,243) ;
+}
+.plan-box{
+    background-color: white;
+    border-radius: 10px;
+    width: 92%;
+    box-shadow: 8px 8px 10px rgb(187, 187, 187);
+    
+}
+.plan-box div{
+    padding: 25px;
+    border-bottom: 2px solid rgb(211, 211, 211);
+}
+.plan-box div:first-child{
+    background-color: rgb(250, 250, 250);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.plan-box div:last-child{
+    text-align: center;
+    border: 0;
+}
+.plan-price{
+    font-size: 300%;
+    color: #C22A27;
+    
+}
+.plan-price span{
+    font-size: 30%;
+    color: black;
+}
+.plan-box li{
+    list-style: none;
+    padding: 5px 0;
 }
