@@ -132,7 +132,8 @@ a:active{
 /*---------BUTTONS----------*/
 
 .btn:link,
-.btn:visited{
+.btn:visited,
+input[type=submit]{
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
@@ -144,7 +145,8 @@ a:active{
 }
 
 .btn-full:link,
-.btn-full:visited {
+.btn-full:visited,
+input[type=submit]{
     background-color: #C22A27;
     
 }
@@ -154,7 +156,9 @@ a:active{
     
 }
 .btn:hover,
-.btn:active{
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active{
     background-color: rgb(163, 33, 31);
     border: 3px solid rgb(163, 33, 31);    
 }
@@ -241,11 +245,10 @@ header{
     opacity: 1;
 }
 
-
-
 /*################################################*/
 /*-----------------HOW IT WORKS-------------------*/
 /*################################################*/
+
 .section-steps{
     background-color: rgb(243, 243, 243);
 }
@@ -367,9 +370,11 @@ cite img{
 /*################################################*/
 
 .section-plans{
-    background-color: rgb(243,243,243) ;
+    padding:50px 0;
+    background-color: rgb(243,243,243);
 }
 .plan-box{
+    margin-top: 30px;
     background-color: white;
     border-radius: 10px;
     width: 92%;
@@ -401,4 +406,40 @@ cite img{
 .plan-box li{
     list-style: none;
     padding: 5px 0;
+}
+
+/*################################################*/
+/*---------------------FORM-----------------------*/
+/*################################################*/
+
+.section-form{
+    padding: 50px 0;
+}
+.contact-form{
+    width: 60%;
+    margin: 20px auto;
+}
+input[type=text],
+input[type=email],
+select,
+textarea{
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #929292;
+}
+textarea{
+    height: 100px;
+}
+input[type=checkbox]{
+    margin:10px 5px 10px 0;
+}
+*:focus{outline: none;}
+
+/*################################################*/
+/*---------------------FORM-----------------------*/
+/*################################################*/
+
+footer{
+    background-color: #333333;
 }
