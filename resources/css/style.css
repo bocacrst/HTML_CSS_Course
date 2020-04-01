@@ -97,7 +97,8 @@ h2:after{
 
 .icon-big{
     width: 30%;
-    margin: 20px 95px; 
+    display: block;
+    margin: 20px auto; 
 }
 .icon-small{
     display: inline-block;
